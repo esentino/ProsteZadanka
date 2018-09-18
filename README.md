@@ -85,3 +85,10 @@ print(policz_kotki('Kotara to nie kotek, ale kotkiem jest Filemon'))
 print(domino(3))
 # Zwróci np ['2-1', '0-3', '5-6']
 ```
+
+10. Napisz funkcję `domino_tuple(count)`, która zamieni listę z poprzedniego zadania na listę tupli.
+
+```py
+print(domino_tuple(['2-1', '0-3', '5-6']))
+# zwróci [(2,1), (0,3), (5,6)]
+```
