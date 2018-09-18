@@ -71,3 +71,10 @@ Zwróci
 }
 '''
 ```
+
+8. Napisz funkcję `policz_kotki(text)`, która zwróci liczbę wystąpień słowa kot w tekście.
+
+```py
+print(policz_kotki('Kotara to nie kotek, ale kotkiem jest Filemon'))
+# zwróci 3
+``
