@@ -77,4 +77,11 @@ Zwróci
 ```py
 print(policz_kotki('Kotara to nie kotek, ale kotkiem jest Filemon'))
 # zwróci 3
-``
+```
+
+9. Napisz funkcję `domino(count)`, która zwróci listę z wylosowanymi kamieniami (ciąg znaków). Oznaczenie kamienia `a-b`, gdzie `a` i `b` to liczby z przedziału 0-6.
+
+```py
+print(domino(3))
+# Zwróci np ['2-1', '0-3', '5-6']
+```
