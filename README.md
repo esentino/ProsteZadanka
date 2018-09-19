@@ -92,3 +92,21 @@ print(domino(3))
 print(domino_tuple(['2-1', '0-3', '5-6']))
 # zwróci [(2,1), (0,3), (5,6)]
 ```
+
+11. Napisz funkcję `own_who(transactions)`, która zwróci listę dłużników łącznie z kwotą. `transactions` jest to lista transakcji. Każda transakcja jest tuplą 3 elementową `('kto', 'komu', 'ile')`.
+
+```py
+transactions = [
+    ('jacek', 'tomek', 20),
+    ('tomek', 'natalia', 10),
+    ('tomek', 'jacek', 30),
+    ('natalia', 'jacek', 40)
+]
+print(own_who(transactions))
+# zwróci 
+[
+    ('jacek', 'tomek', 10),
+    ('natalia', 'tomek', 10),
+    ('jacek', 'natalia', 40)
+]
+```
