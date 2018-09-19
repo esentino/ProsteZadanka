@@ -119,3 +119,15 @@ print(own_who(transactions))
 print(pokemon_text("Mam dzisiaj wolne"))
 # Zwróci MaM DzIsIaJ WoLnE
 ```
+
+14. Napisz funkcję `divide_or_not_divide(by, not_by, max)`, która wyświetli listę liczb naturalnych podzielnych przez `by` a nie podzielnych przez `not_by` do `max`
+
+```py
+divide_or_not_divide(3,4,15)
+# wyświetli:
+# 0 3 6 9 15
+
+divide_or_not_divide(2,3,13)
+# wyświetli:
+# 0 2 4 8 10
+```
