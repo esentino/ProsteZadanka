@@ -110,3 +110,5 @@ print(own_who(transactions))
     ('jacek', 'natalia', 40)
 ]
 ```
+
+12. Napisz funkcję `count_numbers(min, max)`, która zwróci ile liczb jest podzielnych przez 13 od `min` do `max` (włącznie).
