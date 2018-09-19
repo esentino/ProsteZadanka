@@ -112,3 +112,10 @@ print(own_who(transactions))
 ```
 
 12. Napisz funkcję `count_numbers(min, max)`, która zwróci ile liczb jest podzielnych przez 13 od `min` do `max` (włącznie).
+
+13. Napisz funkcję `pokemon_text(text)`, która dla zadanego tekstu zwróci tekst pisany na przemian mała duża litera.
+
+```py
+print(pokemon_text("Mam dzisiaj wolne"))
+# Zwróci MaM DzIsIaJ WoLnE
+```
