@@ -111,6 +111,11 @@ print(own_who(transactions))
 ]
 ```
 
+Opis przykładu: 
+- jacek pożycza tomkowi 20 zł, następnie tomek pożycza jackowi 30 zł <-> w rezultacie jacek wisi tomkowi 10 zł
+- tomek pożycza natalii 10 zł <-> w rezultacie natalia wisi tomkowi10 zł
+- natalia pożycza jackowi 40 zł <-> w reultacie jacek wisi natalii 40 zł
+
 12. Napisz funkcję `count_numbers(min, max)`, która zwróci ile liczb jest podzielnych przez 13 od `min` do `max` (włącznie).
 
 13. Napisz funkcję `pokemon_text(text)`, która dla zadanego tekstu zwróci tekst pisany na przemian mała duża litera.
