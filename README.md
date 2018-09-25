@@ -111,6 +111,11 @@ print(own_who(transactions))
 ]
 ```
 
+Opis przykładu: 
+- jacek pożycza tomkowi 20 zł, następnie tomek pożycza jackowi 30 zł <-> w rezultacie jacek wisi tomkowi 10 zł
+- tomek pożycza natalii 10 zł <-> w rezultacie natalia wisi tomkowi10 zł
+- natalia pożycza jackowi 40 zł <-> w reultacie jacek wisi natalii 40 zł
+
 12. Napisz funkcję `count_numbers(min, max)`, która zwróci ile liczb jest podzielnych przez 13 od `min` do `max` (włącznie).
 
 13. Napisz funkcję `pokemon_text(text)`, która dla zadanego tekstu zwróci tekst pisany na przemian mała duża litera.
@@ -130,4 +135,55 @@ divide_or_not_divide(3,4,15)
 divide_or_not_divide(2,3,13)
 # wyświetli:
 # 0 2 4 8 10
+```
+
+15. Napisz funkcję `dividers(number)`, która zwróci listę podzielniki danej liczby dodatniej. Dla `number` nie będącej liczbą całkowitą dodatnio zwróć `None`.
+
+```py
+print(dividers(24))
+# zwróci [1,2,3,4,6,8,12,24]
+
+print(dividers(0))
+#zwróci None
+```
+
+16. Napisz funkcję `total_shopping_card(shopping_list)`, która wyświetli paragon.
+
+```py
+shopping_list = [
+    ('mleko', 1.99, 2),
+    ('chleb', 2.42, 3),
+    ('masło', 5.99, 1),
+    ('cola', 7.99, 3)
+    ('ziemniaki', 0.99, 1.3)
+    ]
+total_shopping_card(shopping_list)
+# Wypisze
+# mleko(1.99)       x 2     3.98
+# chleb(2.42)       x 3     7.26
+# masło(5.99)       x 1     5.99
+# ziemniaki(0.99)   x 1.3   1.28
+# Do zapłaty:              18.51
+#
+```
+
+17. Napisz funkcję `total_shopping_card_change(shopping_list, cash)`, która wyświetli paragon łącznie kwotą daną kasierowi oraz resztą.
+
+```py
+shopping_list = [
+    ('mleko', 1.99, 2),
+    ('chleb', 2.42, 3),
+    ('masło', 5.99, 1),
+    ('cola', 7.99, 3)
+    ('ziemniaki', 0.99, 1.3)
+    ]
+total_shopping_card_change(shopping_list,20.00)
+# Wypisze
+# mleko(1.99)       x 2     3.98
+# chleb(2.42)       x 3     7.26
+# masło(5.99)       x 1     5.99
+# ziemniaki(0.99)   x 1.3   1.28
+# Do zapłaty:              18.51
+# Zapłacono:               20.00
+# Reszta:                   1.49
 ```
