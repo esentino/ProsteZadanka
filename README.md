@@ -187,3 +187,21 @@ total_shopping_card_change(shopping_list,20.00)
 # Zapłacono:               20.00
 # Reszta:                   1.49
 ```
+
+18. Napisz formularz w flasku, który pobierze od użytkownika 3 liczby, a następnie zwróci największą z nich do przeglądarki.
+
+19. Napisz formularz w flasku, który pobierze od użytkownika zdanie. A następnie wyświetli jego długość.
+
+20. Napisz funkcję do sprawdzania poprawności nazwiska:
+- poprawne nazwisko ma conajmniej 3 litery
+- nazwisko zaczyna się z dużej litery
+- w nazwisku nie występuje spacja
+
+Jeśli jakiś z warunków jest niespełniony rzuć wyjątkiem `ValueError`. Jeśli jest poprawne zwróć `True`.
+
+21. Napisz formluarz w flasku, który pobierze od użytkownika zdanie. A następnie wyświetli wyrazy z tego zdania w kolejności alfabetycznej.
+
+22. Napisz funkcję, która zamienia tekst podany w parametrze. W taki sposób, że małe litery zamienia na duże, a duże na małe.
+
+23. Napisz funkcję, zwracająca same małe litery z podanego teksu jako parametr. 
+
