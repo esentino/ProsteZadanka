@@ -199,3 +199,5 @@ total_shopping_card_change(shopping_list,20.00)
 
 Jeśli jakiś z warunków jest niespełniony rzuć wyjątkiem `ValueError`.
 
+21. Napisz formluarz w flasku, który pobierze od użytkownika zdanie. A następnie wyświetli wyrazy z tego zdania w kolejności alfabetycznej.
+
