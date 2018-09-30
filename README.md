@@ -201,3 +201,4 @@ Jeśli jakiś z warunków jest niespełniony rzuć wyjątkiem `ValueError`.
 
 21. Napisz formluarz w flasku, który pobierze od użytkownika zdanie. A następnie wyświetli wyrazy z tego zdania w kolejności alfabetycznej.
 
+22. Napisz funkcję, która zamienia tekst podany w parametrze. W taki sposób, że małe litery zamienia na duże, a duże na małe.
