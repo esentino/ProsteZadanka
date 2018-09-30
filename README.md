@@ -203,4 +203,5 @@ Jeśli jakiś z warunków jest niespełniony rzuć wyjątkiem `ValueError`. Jeś
 
 22. Napisz funkcję, która zamienia tekst podany w parametrze. W taki sposób, że małe litery zamienia na duże, a duże na małe.
 
-24. Napisz funkcję, 
+23. Napisz funkcję, zwracająca same małe litery z podanego teksu jako parametr. 
+
