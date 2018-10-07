@@ -130,11 +130,11 @@ print(pokemon_text("Mam dzisiaj wolne"))
 ```py
 divide_or_not_divide(3,4,15)
 # wyświetli:
-# 0 3 6 9 15
+# 3 6 9 15
 
 divide_or_not_divide(2,3,13)
 # wyświetli:
-# 0 2 4 8 10
+# 2 4 8 10
 ```
 
 15. Napisz funkcję `dividers(number)`, która zwróci listę podzielniki danej liczby dodatniej. Dla `number` nie będącej liczbą całkowitą dodatnio zwróć `None`.
