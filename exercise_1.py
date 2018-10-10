@@ -6,3 +6,4 @@ def sum_range(min, max):
 #
 # print(sum_range(2, 5))  # zwróci 14
 # print(sum_range(-2, 2))  # zwróci 0
+# print(sum_range(-4, -2))  # zwróci 0
