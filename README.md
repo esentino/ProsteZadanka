@@ -130,11 +130,11 @@ print(pokemon_text("Mam dzisiaj wolne"))
 ```py
 divide_or_not_divide(3,4,15)
 # wyświetli:
-# 0 3 6 9 15
+# 3 6 9 15
 
 divide_or_not_divide(2,3,13)
 # wyświetli:
-# 0 2 4 8 10
+# 2 4 8 10
 ```
 
 15. Napisz funkcję `dividers(number)`, która zwróci listę podzielniki danej liczby dodatniej. Dla `number` nie będącej liczbą całkowitą dodatnio zwróć `None`.
@@ -205,3 +205,20 @@ Jeśli jakiś z warunków jest niespełniony rzuć wyjątkiem `ValueError`. Jeś
 
 23. Napisz funkcję, zwracająca same małe litery z podanego teksu jako parametr. 
 
+24. Napisz funkcję `medjana(lista)`, zwracającą medianę dla podaj listy liczb, np.
+
+```py
+z = medjana([2,4,4,2,5])
+print(z) # zwróci 4
+x = medjana([3,2,2,3,5,2])
+print(x) # zwróci 2.5
+```
+
+25. Napisz funkcję, która zwróci różnicę między średnią a medianą dla podanej listy liczb, np.
+
+```py
+k=diff_avg_medjana([2,4,4,2,5])
+print(k) # zwróci 1 bo avg to 3 a mediana to 4
+l=diff_avg_medjana([3,2,2,3,6,2])
+print(l) # zwróci 0.5  bo avg to 3 a mediana to 2.5
+```
