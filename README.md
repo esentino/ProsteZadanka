@@ -218,7 +218,7 @@ print(x) # zwróci 2.5
 
 ```py
 k=diff_avg_medjana([2,4,4,2,5])
-print(k) # zwróci 1 bo avg to 3 a mediana to 4
+print(k) # zwróci 0.6 bo avg to 3.4 a mediana to 4
 l=diff_avg_medjana([3,2,2,3,6,2])
 print(l) # zwróci 0.5  bo avg to 3 a mediana to 2.5
 ```
