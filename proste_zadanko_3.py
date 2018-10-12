@@ -8,7 +8,7 @@ def speed(distance, time):
         if int(result) == result:
             return "{0:.0f}".format(result)
         else:
-            return result
+            return round(result, 4)
     else:
         return "Podaj wartości liczbowe"
 

@@ -7,9 +7,7 @@ def min_and_max(lista):
 
     if isinstance(lista, list):
         for element in lista:
-            if isinstance(element, Number):
-                pass
-            else:
+            if not isinstance(element, Number):
                 return "Jest lista, ale poproszę w niej tylko liczby :)"
 
         minimal = lista[0]
