@@ -1,22 +1,22 @@
 class Uzyszkodnik:
 
     def __init__(self, first_name, last_name, age, days):
-        if isinstance(first_name, str) and len(first_name) <= 32 and first_name[0].isupper():
+        if isinstance(first_name, str) and first_name and len(first_name) <= 32 and first_name[0].isupper():
             self.first_name = first_name
         else:
             print("Imię musi się zaczynać z wielkiej litery i mieć co najwyżej 32 znaki.")
 
-        if isinstance(last_name, str) and len(last_name) <= 64 and last_name[0].isupper():
+        if isinstance(last_name, str) and last_name and len(last_name) <= 64 and last_name[0].isupper():
             self.last_name = last_name
         else:
             print("Nazwisko musi się zaczynać z wielkiej litery i mieć co najwyżej 64 znaki.")
 
-        if isinstance(age, int) and (18 <= age <= 99):
+        if isinstance(age, int) and age and (18 <= age <= 99):
             self.age = age
         else:
             print("Wiek musi być liczbą całkowitą, w zakresie od 18 do 99 lat.")
 
-        if isinstance(days, int) and days >= 0:
+        if isinstance(days, int) and days and days >= 0:
             self.days = days
         else:
             print("Liczba dni musi być całkowita i nie może być mniejsza niż 0.")
