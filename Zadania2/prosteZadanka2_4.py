@@ -10,6 +10,7 @@ class Student:
 class KlassFullException(Exception):
     pass
 
+
 class Klasa:
     student_list = []
 
@@ -17,7 +18,7 @@ class Klasa:
         if isinstance(max_size, int) and max_size > 0:
             self.max_size = max_size
         else:
-            print("Coś poszło nie tak.")
+            raise ValueError("Rozmiar klasy musi być liczbą naturalną większą od 0.")
 
     def add_student(self, student):
         if student not in self.student_list:
@@ -44,10 +45,7 @@ class Klasa:
         self.student_list = []
 
     def is_in_klass(self, student):
-        if student in self.student_list:
-            return True
-        else:
-            return False
+        return student in self.student_list
 
 
 if __name__ == '__main__':
