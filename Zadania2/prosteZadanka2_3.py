@@ -32,10 +32,7 @@ class Klasa:
         self.student_list = []
 
     def is_in_klass(self, student):
-        if student in self.student_list:
-            return True
-        else:
-            return False
+        return student in self.student_list
 
 
 if __name__ == '__main__':
@@ -52,7 +49,7 @@ if __name__ == '__main__':
     klasa1.add_student(student2)
     klasa1.add_student(student3)
 
-    print(klasa1.is_in_klass(student1))
+    print(klasa1.is_in_klass(student4))
     print(klasa1.klass_size())
 
     for uczen in klasa1.student_list:
@@ -60,6 +57,7 @@ if __name__ == '__main__':
 
     print("\nCzyszczenie listy uczniów.")
     klasa1.clear()
+
     for entity in klasa1.student_list:
         print(entity.first_name, entity.last_name)
 
