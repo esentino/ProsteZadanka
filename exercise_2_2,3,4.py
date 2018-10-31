@@ -1,12 +1,23 @@
-class KlassFullException(Exception):
-    pass
+class Student:
+    imie = None
+    nazwisko = None
+
+    def __init__(self, imie, nazwisko):
+        self.imie = imie
+        self.nazwisko = nazwisko
+
+user1 = Student("Jan","Kowalski")
+user2 = Student("Paweł","Racuch")
+user3 = Student("Gaweł","Klusek")
+user4 = Student("Michał","Kichał")
 
 class Klasa:
+    """użycie gettera"""
     lista_u = []
-    top_lista_u = None
+    __top_lista_u = 4 #maksymalna ilosc miejsc w klasie
 
     def add_student(self,student):
-        if self.top_lista_u > len(self.lista_u):
+        if self.__top_lista_u > len(self.lista_u):
             if student not in self.lista_u:
                 self.lista_u.append(student)
                 return True
@@ -35,16 +46,21 @@ class Klasa:
             return False
     @property
     def max_size(self):
-        return self.top_lista_u
+        return self.__top_lista_u
 
+class KlassFullException(Exception):
+    pass
 
 szkola = Klasa()
-szkola.top_lista_u = 2
-szkola.add_student("michał")
-szkola.add_student("kuba")
-szkola.add_student("jola")
+print(szkola.add_student(user1))
+print(szkola.add_student(user2))
+print(szkola.add_student(user3))
+print(szkola.add_student(user3))
+print(szkola.remove_student(user1))
+print(szkola.remove_student(user4))
 print(szkola.klass_size)
-# print(szkola.klass_size())
-# print(szkola.max_size)
-
+# szkola.clear()
+# print(szkola.klass_size)
+print(szkola.is_in_class(user2))
+print(szkola.is_in_class(user4))
 
