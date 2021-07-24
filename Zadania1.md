@@ -199,7 +199,7 @@ total_shopping_card_change(shopping_list,20.00)
 
 Jeśli jakiś z warunków jest niespełniony rzuć wyjątkiem `ValueError`. Jeśli jest poprawne zwróć `True`.
 
-21. Napisz formluarz w flasku, który pobierze od użytkownika zdanie. A następnie wyświetli wyrazy z tego zdania w kolejności alfabetycznej.
+21. Napisz formularz w flasku, który pobierze od użytkownika zdanie. A następnie wyświetli wyrazy z tego zdania w kolejności alfabetycznej.
 
 22. Napisz funkcję, która zamienia tekst podany w parametrze. W taki sposób, że małe litery zamienia na duże, a duże na małe.
 
