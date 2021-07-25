@@ -7,3 +7,7 @@ Plik z zadaniami [Zadania1.md](Zadania1.md)
 ## Nie traktuj pajtona przedmiotowo - czyli jak to było z obiektami
 
 Plik z zadaniami [Zadania2.md](Zadania2.md)
+
+## Troche zadań w jupiterze
+
+Plik z zadaniami [Zadania3.ipynb] (Zadania3.ipynb)
