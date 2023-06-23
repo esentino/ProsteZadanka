@@ -12,8 +12,7 @@ def count_character(text, letter):
     text = text.lower()
     letter = letter.lower()
 
-    for _ in text:
-        return text.count(letter)
+    return text.count(letter)
 
 
 print(count_character('Mam dzisiaj dobry humor', 'm'))
