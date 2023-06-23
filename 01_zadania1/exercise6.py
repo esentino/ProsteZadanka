@@ -15,5 +15,5 @@ def count_character(text, letter):
     return text.count(letter)
 
 
-print(count_character('Mam dzisiaj dobry humor', 'm'))
+# print(count_character('Mam dzisiaj dobry humor', 'm'))
 # zwróci 3
